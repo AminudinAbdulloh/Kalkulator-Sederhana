@@ -1,0 +1,38 @@
+.container{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+input{
+    grid-column: 1 / span 4;
+}
+
+.btn-ac{
+    grid-column: 1 / span 2;
+    color: white;
+    background-color: blue;
+}
+
+.btn-c{
+    color: white;
+    background-color: red;
+}
+
+.btn-operator{
+    color: white;
+    background-color: orange;
+}
+
+.btn-equals{
+    color: white;
+    background-color: green;
+}
+
+.btn-plus-min{
+    color: white;
+    background-color: darkblue;
+}
